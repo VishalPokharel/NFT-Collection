@@ -140,13 +140,6 @@ export const abi =[
       "type": "function"
     },
     {
-      "inputs": [],
-      "name": "_withdraw",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
       "inputs": [
         {
           "internalType": "address",
@@ -415,7 +408,7 @@ export const abi =[
     },
     {
       "inputs": [],
-      "name": "startPreSale",
+      "name": "startPresale",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
@@ -577,8 +570,15 @@ export const abi =[
       "type": "function"
     },
     {
+      "inputs": [],
+      "name": "withdraw",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
       "stateMutability": "payable",
       "type": "receive"
     }
   ];
-export const NFT_CONTRACT_ADDRESS = "0x09fb3Fa76c9C39D76c3FC1f8Ac872aA016B65558"
+export const NFT_CONTRACT_ADDRESS = "0xc0a1E5c0b8c540B63fEdb32fFC149029E587b2D4"
